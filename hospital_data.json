@@ -1,0 +1,50 @@
+{
+    "patients": {
+        "P001": {
+            "patient_id": "P001",
+            "name": "Nader",
+            "age": 25,
+            "gender": "Male",
+            "medical_history": [
+                "Ill",
+                "Head ach"
+            ]
+        },
+        "P002": {
+            "patient_id": "P002",
+            "name": "Nader",
+            "age": 25,
+            "gender": "Male",
+            "medical_history": [
+                "Ill",
+                "Head ach"
+            ]
+        }
+    },
+    "doctors": {
+        "D001": {
+            "doctor_id": "D001",
+            "name": "Ahmed",
+            "specialization": "General surgen",
+            "contact_info": "121235465"
+        }
+    },
+    "appointments": {
+        "A001": {
+            "appointment_id": "A001",
+            "patient_id": "P001",
+            "doctor_id": "D001",
+            "date": "2025-07-05",
+            "time": "15:42",
+            "reason": "Ill"
+        },
+        "A002": {
+            "appointment_id": "A002",
+            "patient_id": "P001",
+            "doctor_id": "D001",
+            "date": "2025-08-05",
+            "time": "15:44",
+            "reason": "head"
+        }
+    }
+}
